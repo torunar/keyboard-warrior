@@ -1,0 +1,14 @@
+{
+  "extensionDescription": {
+    "message": "Adds a convenient way to open any visible link on a page using only keyboard.",
+    "description": ""
+  },
+  "actionShowNavigationHelpers": {
+    "message": "Show navigation keys",
+    "description": ""
+  },
+  "actionShowNavigationHelpersToolbar": {
+    "message": "Show navigation keys (Ctrl+Shift+L)",
+    "description": ""
+  }
+}

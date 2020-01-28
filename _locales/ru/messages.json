@@ -1,0 +1,14 @@
+{
+  "extensionDescription": {
+    "message": "Позволяет открыть любую видимую ссылку на странице одним нажатием клавиши.",
+    "description": ""
+  },
+  "actionShowNavigationHelpers": {
+    "message": "Показать клавиши быстрого перехода",
+    "description": ""
+  },
+  "actionShowNavigationHelpersToolbar": {
+    "message": "Показать клавиши быстрого перехода (Ctrl+Shift+L)",
+    "description": ""
+  }
+}

@@ -1,0 +1,51 @@
+:root {
+    --kw-nav-helper-size: 20px;
+    --kw-nav-helper-bg-color: yellow;
+    --kw-nav-helper-color: black;
+    --kw-nav-helper-border: 1px;
+}
+
+.__kw-nav-helper {
+    box-sizing: border-box;
+    display: block;
+    position: fixed;
+    z-index: 100000000000;
+
+    color: var(--kw-nav-helper-color);
+    border-width: var(--kw-nav-helper-border);
+    border-style: solid;
+}
+
+.__kw-nav-helper::before {
+    content: attr(data-key);
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    top: calc(-1 * var(--kw-nav-helper-border));
+    left: calc(-1 * var(--kw-nav-helper-border));
+    width: var(--kw-nav-helper-size);
+    height: var(--kw-nav-helper-size);
+
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: calc(0.75 * var(--kw-nav-helper-size));
+    font-weight: normal;
+    text-align: center;
+    line-height: var(--kw-nav-helper-size);
+
+    background: var(--kw-nav-helper-bg-color);
+    border-width: var(--kw-nav-helper-border);
+    border-style: solid;
+}
+
+.__kw-nav-helper--unboxed {
+    min-width: var(--kw-nav-helper-size);
+    max-width: var(--kw-nav-helper-size);
+    min-height: var(--kw-nav-helper-size);
+    max-height: var(--kw-nav-helper-size);
+}
+
+.__kw-nav-helper--boxed {
+    min-width: var(--kw-nav-helper-size);
+    min-height: var(--kw-nav-helper-size);
+}
