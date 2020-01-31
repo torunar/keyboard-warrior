@@ -1,4 +1,4 @@
-# Keyboard warrior
+# Keyboard Warrior
 
 Firefox add-on that adds a convenient way to open any visible link on a page using only keyboard.
 
@@ -25,3 +25,9 @@ Follow the MDN instructions on [Loading a temporary extension](https://developer
 Press Ctrl+Shift+L (⌘+Shift+L on macOS) to show navigation tooltips on links.
 
 Press the key specified in the tooltip to focus and activate a link. 
+
+![](/images/00-before.png)
+
+➡
+
+![](/images/01-after.png)
