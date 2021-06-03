@@ -12,7 +12,7 @@ Firefox add-on that adds a convenient way to open any visible link on a page usi
 
 ```bash
 
-$ git clone git@bitbucket.org:torunar/keyboard-warrior.git
+$ git clone git@github.com:torunar/keyboard-warrior.git
 
 ```
 
